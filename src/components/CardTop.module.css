@@ -1,0 +1,118 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.imageCardIcon {
+  position: absolute;
+  top: -26.74px;
+  left: -30.86px;
+  border-radius: 20.57px;
+  width: 549.75px;
+  height: 534.24px;
+}
+.maisonMetaDiv,
+.rectangleDiv {
+  position: relative;
+  flex-shrink: 0;
+}
+.rectangleDiv {
+  border-radius: 102.86px;
+  background-color: #c3ff00;
+  width: 22.28px;
+  height: 20.09px;
+}
+.maisonMetaDiv {
+  font-size: 11.31px;
+  letter-spacing: 0.33px;
+  line-height: 24.69px;
+  font-weight: 500;
+  font-family: "Helvetica Neue";
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 79.58px;
+  height: 22.96px;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 3.085714340209961px 10.285715103149414px;
+  background-color: rgba(255, 255, 255, 0.38);
+  border-radius: 20.57px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 5.14px;
+}
+.eTHDiv,
+.rockHouse001H2 {
+  position: relative;
+  display: inline-block;
+}
+.rockHouse001H2 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.66px;
+  line-height: 46.29px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.eTHDiv {
+  font-size: 16.46px;
+  letter-spacing: 0.33px;
+  line-height: 24.69px;
+  font-family: "Helvetica Neue";
+}
+.frameDiv2,
+.frameDiv3 {
+  display: flex;
+  justify-content: center;
+}
+.frameDiv3 {
+  flex-direction: row;
+  align-items: center;
+  gap: 27.77px;
+}
+.frameDiv2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 83px;
+  flex-direction: column;
+  padding: 5px 5px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: 3.09px;
+}
+.frameDiv,
+.frameDiv1 {
+  position: absolute;
+  cursor: pointer;
+}
+.frameDiv1 {
+  top: 376px;
+  left: 29px;
+  width: 444.77px;
+  height: 83px;
+}
+.frameDiv {
+  top: 213px;
+  left: 799px;
+  width: 488px;
+  height: 473px;
+  opacity: 0;
+  text-align: left;
+  font-size: 24.69px;
+  color: #fff;
+  font-family: "Druk Wide";
+}
+.frameDiv.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}

@@ -1,0 +1,13 @@
+.maisonMetaDiv {
+  position: absolute;
+  top: 0;
+  left: 244.8px;
+  letter-spacing: 0.04em;
+  line-height: 89.5%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 951.43px;
+  height: 212.91px;
+}
